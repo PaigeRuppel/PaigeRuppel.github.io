@@ -85,11 +85,6 @@ p {
 	padding-bottom: 25px;
 }
 
-/*ul {
-	margin: 0 auto;
-	padding: 0;
-	width: 50%;
-}*/
 
 li {	
 	color: #36264A;
@@ -147,24 +142,3 @@ footer {
 	text-align: center;
 }
 
-
-/*
-#example {
-	display: flex;
-}
-#example li:nth-child(1) {
-	background: red;
-	flex-grow: 1;
-}
-#example li:nth-child(2) {
-	background: blue;
-	flex-grow: 2;
-}
-#example li:nth-child(3) {
-	background: green;
-	flex-grow: 3;
-}
-#example li:nth-child(4) {
-	background: yellow;
-	flex-grow: 4;
-}*/
