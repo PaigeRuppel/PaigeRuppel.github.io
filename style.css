@@ -6,7 +6,7 @@ body {
     flex-wrap: nowrap;
     min-width: 500px;
     max-width: 1024px;
-   	background: linen;
+   	background: #ECECEA;
 }
 
 #navigation {
