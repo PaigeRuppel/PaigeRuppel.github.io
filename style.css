@@ -6,47 +6,98 @@ body {
     flex-wrap: nowrap;
     min-width: 500px;
     max-width: 1024px;
-   	background: #ECECEA;
+   	background: #1b1b1f;
+   	color: #bababa;
 }
 
-#navigation {
-    background-color: #BABABA;
-    height: 40px; 
+.navigation {
+    background-color: #2a1a3b;
     list-style-type: none;
 	margin: auto;
     min-width: 500px;
     max-width: 1024px;
-    padding: 0;
-    top: 0;
     width: 100%; /*Extends across entire width of page*/
 }
 
-#navigation ul {
+.navigation ul {
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
+	margin-bottom: -20px;
 	padding-bottom: 10px;
 }
 
-#navigation a {
-	color: #214E34;
+
+a:link {
+	text-decoration: none;
+	color: #92cbff;
+}
+
+a:visited {
+	color: #92cbff;
+}
+
+a:hover {
+	color: #bababa;
+}
+
+a:active {
+	color: #92cbff;
+}
+
+.logo {
+	display: flex;
+	align-items: flex-start;
+	font-family: 'Cabin', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+.navigation a {
+	display: flex;
+	align-items: center;
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	font-weight: 900;
+	font-size: 14px;
+	font-weight: 800;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 2px;
 }
 
+.navigation a:link {
+	text-decoration: none;
+	color: #bababa;
+}
+
+.navigation a:visited {
+	color: #bababa;
+}
+
+.navigation a:hover {
+	color: #92cbff;
+}
+
+.navigation a:active {
+	color: #bababa;
+}
+
+.divider {
+	background-color: #0d330d;
+	height: 3px;
+	margin-top: 25px;
+}
 
 main {
 	margin-top: 80px;
 }
 
 h1 {
-	color: #36264A;
 	font-family: 'Covered By Your Grace', sans-serif;
 	font-size: 45px;
+	font-weight: 500;
 	line-height: 65px;
+	margin-bottom: -35px;
 	margin-top: 50px;
 	padding-left: 20px;
 	position: relative;
@@ -56,13 +107,12 @@ h1 {
 
 /** List Info style **/
 h2 {
-	background-color: #BABABA;
-	color: #188A44;
+	background-color: #2a1a3b;
 	font-family: 'Raleway', sans-serif;
 	font-size: 28px;
 	font-weight: 500;
 	margin-top: 50px;
-	padding: 2px 25px 2px 25px;
+	padding: 8px 25px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -75,7 +125,6 @@ h2 {
 }
 
 p {
-	color: #36264A;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	font-weight: 100;
@@ -87,7 +136,6 @@ p {
 
 
 li {	
-	color: #36264A;
 	list-style: none;
 	margin: 10px 0px;
 	font-family: 'Raleway', sans-serif;
@@ -107,7 +155,6 @@ li {
 
 
 #contact a {
-	color: #36264A;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	font-weight: 100;
@@ -116,8 +163,8 @@ li {
 	text-transform: none;
 }
 
+
 #projects a {
-	color: #214E34;
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	font-weight: 900;
